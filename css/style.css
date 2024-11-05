@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('../img/image1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #2320168e;
+    border: 2px solid #232016;
+    color: #bba082;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    align-items: center;
+    background-color: #5a3a24;
+    clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0);
+    color: #dedddd;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    margin-top: -4rem;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.packaging-image {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #ad825588;
+    border: 2px solid #ad8255;
+    color: #d4d0d4;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.packaging-text {
+    align-items: center;
+    background-color: #909498;
+    color: #e4e5e9;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.tutorials-image {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('../img/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #403f358a;
+    border: 2px solid #403f35;
+    color: #ffe9cd;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #917051;
+    color: #d3d2d7;
+    font-size: 2rem;
+    height: 250px;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #d3d2d7;
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: #39210a;
+    transform: scale(1.2);
+}
